@@ -1,0 +1,19 @@
+Package: okaapibeta
+Title: Generate, visualize and quantify networks based on the trait preference model 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Josefine Bohr", "Brask", , "bohrbrask@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9025-5204"))
+Description: A set of functions for generating network matrices based on social 
+    preferences for traits (node attributes), vizualising these networks, and
+    measuring network metrics on these (and other) networks.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Imports: 
+    igraph,
+    sna,
+    truncnorm,
+    wrswoR
